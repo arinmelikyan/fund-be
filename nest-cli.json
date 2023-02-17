@@ -1,11 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "fund-be/src",
+  "sourceRoot": "jwt-auth-be/src",
   "monorepo": true,
-  "root": "fund-be",
+  "root": "jwt-auth-be",
   "compilerOptions": {
     "webpack": true,
-    "tsConfigPath": "fund-be/tsconfig.app.json"
+    "tsConfigPath": "jwt-auth-be/tsconfig.app.json"
   }
 }

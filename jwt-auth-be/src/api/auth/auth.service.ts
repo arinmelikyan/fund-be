@@ -1,8 +1,8 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { ConfigService } from '@nestjs/config';
-import { bcryptHash } from 'fund-be/src/common/utils/hash';
-import { UserEntity } from 'fund-be/src/common/entities/user.entity';
+import { bcryptHash } from 'jwt-auth-be/src/common/utils/hash';
+import { UserEntity } from 'jwt-auth-be/src/common/entities/user.entity';
 import { Repository } from 'typeorm';
 import {
   AuthDTO,
